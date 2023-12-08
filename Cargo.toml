@@ -1,0 +1,20 @@
+[package]
+name = "rust_iam"
+version = "0.0.1"
+edition = "2021"
+description = "Un paquete de Rust para la práctica y demostración de conceptos similares a AWS IAM"
+license = "MIT"
+authors = ["juanamv"]
+repository = "https://github.com/juanamv/rust_iam"
+keywords = [
+    "aws-iam",
+    "identity-access-management",
+    "policy-evaluation",
+    "rust"
+]
+categories = ["authentication", "security"]
+
+[dependencies]
+globset = "0.4.13"
+serde_json = "1.0.107"
+serde = { version = "1.0.130", features = ["derive"] }
